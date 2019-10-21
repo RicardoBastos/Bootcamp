@@ -16,3 +16,7 @@ yarn add multer
 
 yarn sequelize migration:create --name=create-files
 yarn add date-fns@next
+
+
+docker run --name mongogobarbar -p 27017:27017 -d -t mongo
+yarn add mongoose
