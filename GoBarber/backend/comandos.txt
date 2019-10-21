@@ -1,0 +1,18 @@
+yarn add sequelize
+yarn add sequelize-cli -D
+
+yarn add pg pg-hstore
+
+yarn sequelize migration:create --name=create-users
+yarn sequelize db:migrate
+yarn sequelize db:migration:undo
+yarn sequelize db:migration:undo:All
+
+yarn add bcryptjs
+yarn add jsonwebtoken
+yarn add yup
+
+yarn add multer
+
+yarn sequelize migration:create --name=create-files
+yarn add date-fns@next
