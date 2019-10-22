@@ -20,3 +20,19 @@ yarn add date-fns@next
 
 docker run --name mongogobarbar -p 27017:27017 -d -t mongo
 yarn add mongoose
+
+yarn add nodemailer
+mailtrap.io
+
+
+docker run --redisgobarber -p 6379:6379 -d -t redis:alpine
+beequee - controlar filas
+yarn add bee-queue
+
+sentry
+yarn add @sentry/node@5.7.1
+sentry.io
+
+yarn add express-async-errors
+yarn add youch
+yarn add dotenv
