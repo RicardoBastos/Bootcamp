@@ -1,0 +1,24 @@
+yarn create react-app flux
+
+
+Remover do package.json
+"eslintConfig": {
+  "extends": "react-app"
+},
+
+configurar do Zero Eslint
+
+
+Criar Editor Config
+end_of_line = lf //unix e não windows
+
+
+yarn add eslint -D
+yarn eslint --init
+remover o package.json.lock e rodar yarn para atualizar os pacotes
+
+
+yarn add prettier eslint-config-prettier eslint-plugin-prettier babel-eslint -D
+
+
+yarn add react-router-dom
