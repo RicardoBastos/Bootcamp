@@ -26,3 +26,26 @@ yarn add react-router-dom
 
 extension : vscode-styled-components
 ext install vscode-styled-components
+
+
+json-server server.json -p 3333
+
+yarn add reactotron-react-js reactotron-redux
+yarn add reactotron-redux-saga
+
+yarn add redux-saga
+
+
+
+HOOKS
+yarn add eslint-plugin-react-hooks -D
+
+eslint
+plugins: ["react", "react-hooks"],
+
+rules
+"react-hooks/rules-of-hooks": "error",
+"react-hooks/exhaustive-deps": "warn"
+
+useMemo
+const techSize = useMemo(()=>tech.length,[tech]);
