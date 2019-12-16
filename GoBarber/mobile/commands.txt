@@ -1,0 +1,7 @@
+apagar eslint
+instalar eslint
+
+react-native run-android
+react-native start --reset-cache
+
+C:\Users\Ricardo\AppData\Local\Android\Sdk\platform-tools>adb reverse tcp:9090 tcp:9090
