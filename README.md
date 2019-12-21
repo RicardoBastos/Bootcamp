@@ -1,3 +1,3 @@
 #GoBarber - Mobile
 
-[url=https://imgflip.com/gif/3k42ug][img]https://i.imgflip.com/3k42ug.gif[/img][/url][url=https://imgflip.com/gif-maker]via Imgflip GIF Maker[/url]
+<a href="https://imgflip.com/gif/3k43ly"><img src="https://i.imgflip.com/3k43ly.gif" title="made at imgflip.com"/></a>
