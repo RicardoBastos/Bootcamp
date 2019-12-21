@@ -7,7 +7,7 @@ import { signInSuccess, signInFailure } from './actions';
 export function* signIn({ payload }) {
   try {
     const { email, password } = payload;
-    debugger;
+
     const response = yield call(api.post, 'sessions', {
       email,
       password,
@@ -23,7 +23,7 @@ export function* signIn({ payload }) {
 
     api.defaults.headers.Authorization = `Bearer ${token}`;
 
-    yield delay(3000);
+    yield delay(1000);
 
     yield put(signInSuccess(token, user));
 
@@ -65,13 +65,8 @@ export function setToken({ payload }) {
   }
 }
 
-export function signOut() {
-  // history.push('/');
-}
-
 export default all([
   takeLatest('persist/REHYDRATE', setToken),
   takeLatest('@auth/SIGN_IN_REQUEST', signIn),
   takeLatest('@auth/SIGN_UP_REQUEST', signUp),
-  takeLatest('@auth/SIGN_OUT', signOut),
 ]);

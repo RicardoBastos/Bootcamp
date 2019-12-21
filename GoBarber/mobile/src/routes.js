@@ -1,25 +1,80 @@
+/* eslint-disable import/no-extraneous-dependencies */
+import React from 'react';
 import { createAppContainer, createSwitchNavigator } from 'react-navigation';
+import { createBottomTabNavigator } from 'react-navigation-tabs';
 
+import Icon from 'react-native-vector-icons/MaterialIcons';
+
+import { createStackNavigator } from 'react-navigation-stack';
 import SignIn from './pages/SignIn';
 import SignUp from './pages/SignUp';
 
-const Routes = createAppContainer(
-  createSwitchNavigator(
-    {
-      SignIn,
-      SignUp,
-    }
-    // {
-    //   headerLayoutPreset: 'center',
-    //   headerBackTitleVisible: false,
-    //   defaultNavigationOptions: {
-    //     headerStyle: {
-    //       backgroundColor: '#7159c1',
-    //     },
-    //     headerTintColor: '#fff',
-    //   },
-    // }
-  )
-);
+import Dashboard from './pages/Dashboard';
+import Profile from './pages/Profile';
 
-export default Routes;
+import SelectProvider from './pages/New/SelectProvider';
+import SelectDateTime from './pages/New/SelectDateTime';
+import Confirm from './pages/New/Confirm';
+
+export default (signedIn = false) =>
+  createAppContainer(
+    createSwitchNavigator(
+      {
+        Sign: createSwitchNavigator({
+          SignIn,
+          SignUp,
+        }),
+        App: createBottomTabNavigator(
+          {
+            Dashboard,
+            New: {
+              screen: createStackNavigator(
+                {
+                  SelectProvider,
+                  SelectDateTime,
+                  Confirm,
+                },
+                {
+                  defaultNavigationOptions: {
+                    headerTransparent: true,
+                    headerTintColor: '#fff',
+                    headerLayoutPreset: 'center',
+                    headerLeftContainerStyle: {
+                      alignItems: 'center',
+                      marginLeft: 20,
+                    },
+                  },
+                }
+              ),
+              navigationOptions: {
+                tabBarLabel: 'Agendar',
+                tabBarVisible: false,
+                tabBarIcon: (
+                  <Icon
+                    name="add-circle-outline"
+                    size={20}
+                    color="rgba(255,255,255,0.6)"
+                  />
+                ),
+              },
+            },
+            Profile,
+          },
+          {
+            resetOnBlur: true,
+            tabBarOptions: {
+              activeTintColor: '#fff',
+              keyboardHidesTabBar: true,
+              inactiveTintColor: 'rgba(255,255,255,0.6)',
+              style: {
+                backgroundColor: '#6259c9',
+              },
+            },
+          }
+        ),
+      },
+      {
+        initialRouteName: signedIn ? 'App' : 'Sign',
+      }
+    )
+  );
