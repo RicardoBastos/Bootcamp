@@ -16,7 +16,7 @@
 
 [Lets go to Link](https://www.exemplodelink.com.br)
 
-<font color="red">This is some text!</font>
+- ![#1589F0](https://placehold.it/15/1589F0/000000?text=+) `#1589F0`
 
 
 **Deus seja louvado**
