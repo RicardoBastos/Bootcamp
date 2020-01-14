@@ -16,7 +16,8 @@ use 'git status'
 1 b 
 1 c
 
-[x] teste
+- [x] teste
+- [x] testea
 
 Mobile : React Native
 
