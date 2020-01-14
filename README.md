@@ -2,7 +2,7 @@
 
 Front: React
 
-Back: Node
+** Back: Node
 
 Mobile : React Native
 
