@@ -1,8 +1,9 @@
 # Treinamento : Rocketseat 2019
 
-* a
-* b 
-* c
+* Hooks
+* Sequelize
+* Redux
+
 
 - [x] React
 - [x] Node
