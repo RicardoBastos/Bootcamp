@@ -16,7 +16,13 @@
 
 [Lets go to Link](https://www.exemplodelink.com.br)
 
-### :bike:
+
+
+| Tech      | Nota  |
+| --------- | -----:|
+| React     |   10  |
+| Node      |   10  |
+| NAtive    |   10  |
 
 
 **Deus seja louvado**
