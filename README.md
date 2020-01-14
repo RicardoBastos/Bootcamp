@@ -16,7 +16,7 @@
 
 [Lets go to Link](https://www.exemplodelink.com.br)
 
-![#1589F0](https://placdd.com) `Ricardo`
+:bike:
 
 
 **Deus seja louvado**
