@@ -1,6 +1,6 @@
 # Treinamento : Rocketseat 2019
 
-+1: Este PR parece ótimo
+@octocat :+1: Este PR parece ótimo - está pronto para o merge! :shipit:
 
 Front: React
 
