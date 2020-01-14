@@ -12,9 +12,9 @@ use 'git status'
 * b 
 * c
 
-- a
-- b 
-- c
+_ a
+_ b 
+_ c
 
 Mobile : React Native
 
