@@ -1,5 +1,7 @@
 # Treinamento : Rocketseat 2019
 
++1: Este PR parece ótimo
+
 Front: React
 
 **Back: Node**
