@@ -8,5 +8,9 @@ Front: React
 
 use 'git status'
 
+* a
+* b 
+* c
+
 Mobile : React Native
 
