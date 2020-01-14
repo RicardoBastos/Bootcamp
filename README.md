@@ -4,7 +4,9 @@ Front: React
 
 **Back: Node**
 
-Let's rename \*our-new-project\* to \*our-old-project\*.
+> Teste
+
+use 'git status'
 
 Mobile : React Native
 
