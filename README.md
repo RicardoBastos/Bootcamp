@@ -13,8 +13,8 @@ use 'git status'
 * c
 
 1 a
-2 b 
-3 c
+1 b 
+1 c
 
 Mobile : React Native
 
