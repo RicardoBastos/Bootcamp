@@ -14,7 +14,7 @@
 
 > Flux
 
-[Lets go to Quora](https://www.quora.com)
+[Lets go to Link](https://www.exemplodelink.com.br)
 
 
 **Deus seja louvado**
