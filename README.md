@@ -1,25 +1,19 @@
 # Treinamento : Rocketseat 2019
 
-:+1:  :shipit:
-
-Front: React
-
-**Back: Node**
-
-> Teste
-
-use 'git status'
-
 * a
 * b 
 * c
 
-1 a
-1 b 
-1 c
+- [x] React
+- [x] Node
+- [x] Native
 
-- [x] teste
-- [x] testea
 
-Mobile : React Native
+> GoBarber
 
+> Flux
+
+**Deus seja louvado**
+
+
+:+1:
