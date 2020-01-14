@@ -16,6 +16,8 @@
 
 [Lets go to Link](https://www.exemplodelink.com.br)
 
+<font color="red">This is some text!</font>
+
 
 **Deus seja louvado**
 
